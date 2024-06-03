@@ -2,6 +2,7 @@
 
 html{
     font-family: "Montserrat", sans-serif;
+    background-color: #FEFFD2;
 }
 
 .body{
@@ -11,25 +12,49 @@ html{
     display: flex;
     justify-content: center;
     align-content: center;
+
+    background-color: #FEFFD2;
 }
 
 h1{
     text-align: center;
+    color: #FF7D29;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 90vh;
 }
 
 .clock{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+
 }
 
 #hour, #min, #sec{
-    font-size: 4rem;
-    border: 5px black solid;
-    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+    border: 5px #FFBF78 solid;
+    height: 120px;
+    width: 150px;
     border-radius: 10px;
     box-sizing: border-box;
 
     margin: 0px 10px 0px 10px;
+
+    color: #FFBF78;
+}
+
+#date{
+    text-align: center;
+    color: #FF7D29;
+    font-weight: bold;
 }

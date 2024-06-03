@@ -18,3 +18,13 @@ setInterval(updateClock, 1000);
 
 window.onload = updateClock;
 
+let now = new Date();
+
+let dateElement = document.getElementById('date')
+
+let year = now.getFullYear();
+let month = now.getMonth() + 1; // Add 1 because months are 0-indexed
+let day = now.getDate();
+
+dateElement.textContent = `${day}/${month}/${year}`
+
