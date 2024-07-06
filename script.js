@@ -26,5 +26,5 @@ let year = now.getFullYear();
 let month = now.getMonth() + 1;
 let day = now.getDate();
 
-dateElement.textContent = `${day}/${month}/${year}`
+dateElement.textContent = `0${day}/0${month}/${year}`
 
